@@ -11,7 +11,7 @@
   }
 
   .header img {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
   }
 
   .header_menu {
@@ -19,17 +19,25 @@
   }
 
   .header_menu ul li {
-    margin: 0;
+    margin: 5px;
   }
 
   .header_menu ul li a {
     display: block;
     float: left;
     border: 4px solid #000;
-    width: 140px;
+    width: 136px;
   }
 
   .header_menu ul li a:hover {
     border-color: #fff;
+  }
+
+  /* Introdução */
+  .introducao {
+    margin-top: 0;
+    padding-top: 20px;
+    background: url("../img/bg-mobile.jpg") no-repeat center;
+    background-size: cover;
   }
 }
