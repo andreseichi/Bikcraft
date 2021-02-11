@@ -14,6 +14,26 @@
     width: 26px;
     height: 26px;
   }
+
+  /* Produtos */
+  .produto_item h2 {
+    top: -150px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+  }
 }
 
 /* Estilos para smartphones */
@@ -79,7 +99,6 @@
   }
 
   /* Sobre */
-
   .missao_sobre p {
     font-size: 14px;
     line-height: 20px;
@@ -89,5 +108,38 @@
   .missao_sobre ul li {
     font-size: 14px;
     line-height: 25px;
+  }
+
+  /* Produtos */
+  .produto_item h2 {
+    top: -100px;
+    margin-bottom: -67px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 149px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+
+  /* Orçamento */
+  .form {
+    padding-right: 0;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0;
   }
 }
