@@ -406,8 +406,6 @@ img {
   z-index: 1;
 }
 
-/* Estilo dos botões navegação slide */
-
 .js [data-slide-nav] {
   display: block;
   text-align: center;
@@ -429,4 +427,18 @@ img {
 
 .js [data-slide-nav] button.active {
   background: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
