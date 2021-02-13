@@ -442,3 +442,19 @@ img {
   transform: none;
   transition: opacity 800ms, transform 800ms;
 }
+
+/* Anti-Spam */
+.nao-aparece {
+  position: absolute;
+  visibility: hidden;
+  height: 0px;
+}
+
+/* Mensagem envio formulário */
+#form-sucesso {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+}

@@ -145,20 +145,27 @@
     <section class="orcamento">
       <div class="container">
         <h2 class="subtitulo">Orçamento</h2>
-        <form action="" id="form_orcamento" class="grid-8 form">
+        <form method="POST" action="./enviar.php" id="form_orcamento" class="grid-8 form formphp">
           <label for="nome">Nome</label>
-          <input type="text" id="nome" />
+          <input type="text" id="nome" name="nome" required/>
 
           <label for="email">E-mail</label>
-          <input type="text" id="email" />
+          <input type="email" id="email" name="email" required/>
 
           <label for="telefone">Telefone</label>
-          <input type="text" id="telefone" />
+          <input type="text" id="telefone" name="telefone"/>
 
-          <label for="espec">Especificações</label>
-          <textarea name="" id="espec"></textarea>
+          <!-- Anti-Spam -->
+          <label for="" class="nao-aparece"></label>
+          <input type="text" class="nao-aparece" name="leaveblank">
+          <label for="" class="nao-aparece"></label>
+          <input type="text" class="nao-aparece" name="dontchange" value="http://">
+          <!-- Fecha Anti-Spam -->
 
-          <button type="submit" class="btn">Enviar</button>
+          <label for="mensagem">Mensagem</label>
+          <textarea name="" id="mensagem" name="mensagem" required></textarea>
+
+          <button type="submit" id="enviar" name="enviar" class="btn">Enviar</button>
         </form>
 
         <div class="grid-8 orcamento_dados">
@@ -246,6 +253,7 @@
 
     <!-- Javascripts -->
     <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-form.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
