@@ -155,6 +155,7 @@ img {
 }
 
 .quote-externo cite {
+  text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
